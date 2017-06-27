@@ -1,0 +1,57 @@
+/*General*/
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+.row{
+  margin: 0px;
+}
+.col-xs, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0px;
+}
+.col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+  padding: 0px;
+}
+.col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  padding: 0px;
+}
+.col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+  padding: 0px;
+}
+
+/*Navegacion*/
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 10vh;
+  width: 100%;
+  background-color: #ecf0f1;
+}
+nav div {
+  height: inherit;
+}
+nav ul li {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: inline;
+  list-style: none;
+  padding-right: 15px;
+}
+nav .selected {
+  padding: 2px;
+  background-color: #7f8c8d;
+  color: #ecf0f1;
+  border-bottom: 1px solid #34495e ;
+}
+
+/*Cuerpo*/
