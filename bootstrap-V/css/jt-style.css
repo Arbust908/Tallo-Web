@@ -89,3 +89,9 @@ img{
   width: 100%;
   border-bottom: 3px solid #2c3e50;
 }
+
+.foot{
+  background-color: #bdc3c7;
+  text-align: center;
+  padding: 5px;
+}
