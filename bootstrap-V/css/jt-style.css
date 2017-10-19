@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+  margin: 0px
+}
+li{
+  display: inline-flex;
+}
+
+
+.fullW{
+  width: 100%;
+  overflow: hidden;
+}
+
+img{
+  width: 100%
+}
+
+.nav{
+  padding: 10px 20px;
+  background-color: #2c3e50;
+}
+
+.nav ul {
+  padding: 0px;
+  float:right;
+}
+
+.nav li{
+  border-right: 1px solid #fff;
+
+}
+
+.nav li:last-child{
+  border-right: 0px solid #fff
+}
+
+.nav a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav::after{
+  clear: both;
+  overflow: hidden;
+}
+
+.main-img{
+  height: 30vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../img/jt-01.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.main-img h2{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin: 0px
+}
+
+.main-img a{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  padding: 10px 0px 15px 15px;
+  width: 100%;
+  border-bottom: 4px solid #2c3e50;
+}
+
+.sec-img{
+  height: 20vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../img/jt-01.jpg");
+  background-size: auto;
+}
+
+.sec-img h3{
+  position: absolute;
+  margin: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.sec-img a{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  padding: 10px 0px 15px 15px;
+  width: 100%;
+  border-bottom: 3px solid #2c3e50;
+}
+
+.foot{
+  background-color: #bdc3c7;
+  text-align: center;
+  padding: 5px;
+}
